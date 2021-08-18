@@ -78,13 +78,13 @@ a {
          echo $email."<br>";
          echo $pass."<br>";
          echo $re_pass."<br>";
-        //  Data Available 
+      
          if($email == false || $pass == false || $re_pass == false ){
             echo"All Fields are required";
     
         }
         else{
-            echo"Data Available ";
+            echo"Data Stable ";
     
         }
         
