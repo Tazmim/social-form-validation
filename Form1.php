@@ -5,7 +5,7 @@
 <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
+  background-color: gold;
 }
 
 * {
@@ -14,18 +14,19 @@ body {
 
 /* Add padding to containers */
 .container {
-  padding: 16px;
-  background-color: white;
+  padding: 13px;
+  background-color: gold;
 }
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
   width: 100%;
   padding: 15px;
-  margin: 5px 0 22px 0;
+  margin: 5px 0 10px 0;
   display: inline-block;
   border: none;
   background: #f1f1f1;
+  
 }
 
 input[type=text]:focus, input[type=password]:focus {
@@ -41,8 +42,8 @@ hr {
 
 /* Set a style for the submit button */
 .registerbtn {
-  background-color: #04AA6D;
-  color: white;
+  background-color: violet;
+  color: black;
   padding: 16px 20px;
   margin: 8px 0;
   border: none;
@@ -62,7 +63,7 @@ a {
 
 /* Set a grey background color and center the text of the "sign in" section */
 .signin {
-  background-color: #f1f1f1;
+  background-color: aqua;
   text-align: center;
 }
 </style>
