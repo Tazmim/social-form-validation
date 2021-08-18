@@ -71,21 +71,19 @@ a {
     <?php
     if(isset($_POST['submit'])){
         echo"<h1>Given Infromation is: </h1>"."<br>";
-      
-
          $email = $_POST['email'];
          $pass = $_POST['psw'];
          $re_pass = $_POST['psw-repeat'];
          echo $email."<br>";
          echo $pass."<br>";
          echo $re_pass."<br>";
-
-         if($email== false || $pass== false || $re_pass==false ){
+        //  Data Available 
+         if($email == false || $pass == false || $re_pass == false ){
             echo"All Fields are required";
     
         }
         else{
-            echo"Data Stable";
+            echo"Data Available ";
     
         }
         
